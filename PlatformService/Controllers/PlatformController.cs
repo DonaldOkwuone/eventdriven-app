@@ -24,7 +24,8 @@ namespace PlatformService.Controllers
         {
             return Ok(_platformRepository.getAllPlatform());
         }
-
+        [HttpPost]
+        [Route("CreatePlatform")]
         public async Task<IActionResult> CreatePlatform(PlatformDto platformdto)
         {
             Platform platform = _mapper.Map<PlatformDto, Platform>(platformdto);
