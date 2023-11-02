@@ -31,7 +31,7 @@ namespace PlatformService.Controllers
             Platform platform = _mapper.Map<PlatformDto, Platform>(platformdto);
             _platformRepository.CreatePlatform(platform);
             await _platformRepository.SaveChanges();
-
+            //After creating A platform
             return Ok(platform);
         }
     }
