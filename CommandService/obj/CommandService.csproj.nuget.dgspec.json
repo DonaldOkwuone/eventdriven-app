@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nkemokwuone/Projects/eventdriven-app/CommandService/CommandService.csproj": {}
+    "C:\\Users\\nkem.okwuone\\source\\repos\\PlatformService\\CommandService\\CommandService.csproj": {}
   },
   "projects": {
-    "/Users/nkemokwuone/Projects/eventdriven-app/CommandService/CommandService.csproj": {
+    "C:\\Users\\nkem.okwuone\\source\\repos\\PlatformService\\CommandService\\CommandService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nkemokwuone/Projects/eventdriven-app/CommandService/CommandService.csproj",
+        "projectUniqueName": "C:\\Users\\nkem.okwuone\\source\\repos\\PlatformService\\CommandService\\CommandService.csproj",
         "projectName": "CommandService",
-        "projectPath": "/Users/nkemokwuone/Projects/eventdriven-app/CommandService/CommandService.csproj",
-        "packagesPath": "/Users/nkemokwuone/.nuget/packages/",
-        "outputPath": "/Users/nkemokwuone/Projects/eventdriven-app/CommandService/obj/",
+        "projectPath": "C:\\Users\\nkem.okwuone\\source\\repos\\PlatformService\\CommandService\\CommandService.csproj",
+        "packagesPath": "C:\\Users\\nkem.okwuone\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nkem.okwuone\\source\\repos\\PlatformService\\CommandService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/nkemokwuone/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\nkem.okwuone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -98,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
